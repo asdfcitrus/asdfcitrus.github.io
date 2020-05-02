@@ -93,11 +93,15 @@ a {
 
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 800px) {
+  .br2::before {
+  content: "\A" ;
+  white-space: pre ;
+  }
 
 }
 
-@media all and (max-width: 538px) {
+@media all and (max-width: 650px) {
 
   .lessons{
     flex-direction:column;
@@ -118,9 +122,8 @@ a {
   .lesson img {
     margin:0 auto;
   }
-  .br::before {
+  .b1::before {
   content: "\A" ;
   white-space: pre ;
   }
-
 }
