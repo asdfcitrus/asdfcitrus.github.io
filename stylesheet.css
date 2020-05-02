@@ -71,11 +71,14 @@ a {
   margin-bottom: 0px;
   padding: 4px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: #FFF;
   font-weight: bold;
   background: #5fc2f5;
   letter-spacing: 0.05em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -111,6 +114,10 @@ a {
 
   .lesson img {
     margin:0 auto;
+  }
+  .br::before {
+  content: "\A" ;
+  white-space: pre ;
   }
 
 }
