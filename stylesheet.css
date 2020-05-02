@@ -102,7 +102,12 @@ a {
 }
 
 @media all and (max-width: 650px) {
-
+  .b1::before {
+  content: "\A" ;
+  white-space: pre ;
+  }
+}
+@media all and (max-width: 538px) {
   .lessons{
     flex-direction:column;
   }
@@ -121,9 +126,5 @@ a {
 
   .lesson img {
     margin:0 auto;
-  }
-  .b1::before {
-  content: "\A" ;
-  white-space: pre ;
   }
 }
