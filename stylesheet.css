@@ -48,7 +48,7 @@ a {
 
 .lesson-flex{
     float: left;
-    height:393px;
+    height:431px;
     margin: 15px 10px;
 }
 
@@ -61,15 +61,15 @@ a {
 }
 
 .lesson img {
-  width:200px;
+  width:220px;
   display:block;
 }
 
 
 .text-contents {
   display:block;
-  width: 200px;
-  height:80px;
+  width: 220px;
+  height:88px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 4px;
