@@ -28,7 +28,8 @@ a {
 .heading {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #5f5d60;
+  color: #454545;
+  text-shadow: 1px 1px 1px #a0a0a0;
 }
 
 .heading h2 {
@@ -43,7 +44,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap:wrap
+  flex-wrap:wrap;
 }
 
 .lesson-flex{
@@ -82,7 +83,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 1px 1px #808080
+  text-shadow: 1px 1px 1px #808080;
 }
 
 
